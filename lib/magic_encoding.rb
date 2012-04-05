@@ -23,6 +23,7 @@ module AddMagicComment
 			'rb' => '# {text}',
 			'rake' => '# {text}',
 			'haml' => '-# {text}',
+			'coffee' => '# {text}'
 		}
 
 		count = 0
